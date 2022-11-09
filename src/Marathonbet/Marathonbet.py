@@ -38,9 +38,6 @@ class Marathonbet():
 
             # Create the match and start iterating all the bets
 
-            break
-
-
 
     def find_players(self, soup, is_doubles = False):
 
@@ -73,8 +70,10 @@ class Marathonbet():
 
     def click_on_all_markets(self, soup):
 
-        all_markets = soup.find(text = 'Todos los mercados')
-        print(all_markets)
+        all_markets = soup.find_all('div', class_='text-field')
+        if len(all_markets) > 0:
+            all_markets_button = all_markets[0].parent
+            all_markets_button.click
 
 
     def scroll_to_load_all_data(self, tennis_url, tennis_page, general_soup):
