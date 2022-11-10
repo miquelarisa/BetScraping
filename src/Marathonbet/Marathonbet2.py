@@ -1,7 +1,7 @@
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 from selenium.common import TimeoutException
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
@@ -18,6 +18,14 @@ class Marathonbet2():
         self.driver = webdriver.Chrome(PATH)
         self.timeout = 1
 
+        self.interesting_markets = ["Gana el partido con hándicap por sets", "Ganador del partido con hándicap por juegos",
+            "Total de sets", "Total de juegos", "Total de tie-breaks", "Total de juegos ganados (Local)",
+            "Total de juegos ganados (Visitor)", "Resultado del 1.er set", "Ganar el 1.er set con hándicap",
+            "Total de juegos del 1.er set", "Total de juegos ganados (Local) - 1.er set", "Total de juegos ganados (Visitor) - 1.er set",
+            "Resultado del 2.º set", "Ganar el 2.º set con hándicap", "Total de juegos del 2.º set", "Total de juegos ganados (Local) - 2.º set",
+            "Total de juegos ganados (Visitor) - 2.º set", "Resultado del 3.er set", "Ganar el 3.er set con hándicap", "Total de juegos del 3.er set",
+            "Total de juegos ganados (Local) - 3.er set", "Total de juegos ganados (Visitor) - 3.er set"]
+
         # Go to the tennis page and maximize the window.
         self.driver.get(self.tennis_url)
         self.driver.maximize_window()
@@ -25,6 +33,8 @@ class Marathonbet2():
 
 
     def scrap_tennis_data(self):
+
+        match_dataset = {}
 
         # Load all the dynamic data and get all match links
         self.scroll_to_load_all_data()
@@ -42,9 +52,16 @@ class Marathonbet2():
             # Find if the current match is a doubles match, and get its players.
             is_doubles = 'Doubles' in link
             players = self.find_players(is_doubles)
-            print(players[0], players[1])
 
             # Create the match and start iterating all the bets
+            betting_set = self.get_betting_dataset(players[0], players[1])
+
+            match_dataset[players[0] + ' vs ' + players[1]] = betting_set
+
+            break
+
+        print(match_dataset)
+
 
 
     def go_to_link(self, link):
@@ -97,9 +114,54 @@ class Marathonbet2():
             all_markets_button.click()
 
 
+    def get_betting_dataset(self, local, visitor):
+
+        betting_dataset = {}
+
+        # Find all markets of the page.
+        markets = self.driver.find_elements(By.CLASS_NAME, 'market-inline-block-table-wrapper')
+
+        # For each market:
+        for market in markets:
+
+            # Get the name of the market.
+            name = market.find_element(By.CLASS_NAME, 'name-field').text
+            name = name.replace(local, 'Local')
+            name = name.replace(visitor, 'Visitor')
+
+            # If it should be processed.
+            #if name in self.interesting_markets:-----------------------------------------------
+
+            # Find all bets.
+            bets = market.find_elements(By.CLASS_NAME, 'selection-link')
+
+            # And for each bet:
+            for bet in bets:
+
+                # Get the key of the bet and find the substring after @.
+                key = bet.get_attribute('data-selection-key')
+                key = key[key.find('@')+1:]
+
+                # Get the value and yield the current bet.
+                value = bet.get_attribute('data-selection-price')
+
+                aux_info_value = bet.find_element(By.XPATH, '..').find_element(By.XPATH, '..')
+                aux_info_value = aux_info_value.find_elements(By.CLASS_NAME, 'coeff-value')
+                if len(aux_info_value) > 0 and 'Handicap' in key:
+                    if key[-1] == 'H':
+                        key = key[:-1] + '(Local)'
+                    elif key[-1] == 'A':
+                        key = key[:-1] + '(Visitor)'
+                    key = key + aux_info_value[0].text
+
+                betting_dataset[key] = value
+
+        return betting_dataset
+
+
     def scroll_to_load_all_data(self):
 
-        endtime = time.time() + 10
+        endtime = time.time() + 3
         while time.time() < endtime:
             footer = self.driver.find_elements(By.ID, 'footer')
             self.driver.execute_script("window.scrollTo(arguments[0])", footer)
