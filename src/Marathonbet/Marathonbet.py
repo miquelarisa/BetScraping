@@ -30,6 +30,9 @@ class Marathonbet():
         # Go to the tennis page and maximize the window.
         self.driver.get(self.tennis_url)
         self.driver.maximize_window()
+        # Close cookies popup
+        self.close_cookies_popup()
+        # Scrap the data
         self.scrap_tennis_data()
 
 
@@ -38,7 +41,7 @@ class Marathonbet():
         match_dataset = {}
 
         # Load all the dynamic data and get all match links
-        self.scroll_to_load_all_data()
+        self.scroll_to_load_all_data_v3(30, 1)
         page_links = self.get_all_match_links()
         print(len(page_links))
 
@@ -168,3 +171,89 @@ class Marathonbet():
 
             '''footer = self.driver.find_elements(By.CLASS_NAME, 'footer-menu__text')
             self.driver.execute_script("arguments[0].scrollIntoView;", footer)'''
+
+    def scroll_to_load_all_data_v2(self):
+
+        # Maximum time allowed (s) for endless scrolling
+        scroll_timeout = 30
+        endtime = time.time() + scroll_timeout
+
+        # Main container element where the scroll will be performed
+        '''main_container = self.driver.find_element(By.ID, 'main_container')middle-container
+        main_container = self.driver.find_element(By.CLASS_NAME, 'grid-middle')'''
+        main_container = self.driver.find_element(By.ID, 'middle-container')
+        '''self.driver.execute_script("arguments[0].scrollIntoView();", main_container)'''
+
+
+        # Current scroll height
+        loaded_height_old = self.driver.execute_script("return arguments[0].scrollHeight", main_container)
+        loaded_height = self.driver.execute_script("return document.querySelector('#middle-container').scrollHeight")
+
+        while time.time() < endtime:
+            # Scroll to the bottom of the loaded section
+            '''self.driver.execute_script("arguments[0].scrollTo(0, arguments[0].scrollHeight);", main_container)'''
+            '''self.driver.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", main_container)'''
+            self.driver.execute_script("arguments[0].scrollBy(0, 4000);", main_container)
+            '''self.driver.execute_script("document.querySelector('#middle-container').scrollBy(0, 200);")'''
+            # Time allowed (s) to load the next section
+            time.sleep(1)
+            # New scroll height
+            new_height = self.driver.execute_script("return arguments[0].scrollHeight", main_container)
+            # Check if the ending of the page has been reached (no difference in height from last scroll)
+            '''if new_height == loaded_height:
+                break'''
+            loaded_height = new_height
+        '''
+        # Current scroll height
+        loaded_height = self.driver.execute_script("return document.body.scrollHeight")
+
+        while time.time() < endtime:
+            # Scroll to the bottom of the loaded section
+            self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            # Time allowed (s) to load the next section
+            time.sleep(1)
+            # New scroll height
+            new_height = self.driver.execute_script("return document.body.scrollHeight")
+            # Check if the ending of the page has been reached (no difference in height from last scroll)
+            if new_height == loaded_height:
+                break
+            loaded_height = new_height'''
+
+    def scroll_to_load_all_data_v3(self, scroll_timeout, load_time):
+        # scroll_timeout: Maximum time allowed (s) for endless scrolling
+        # load_time: Time allowed (s) to load the next section
+
+        # Scroll timeout
+        endtime = time.time() + scroll_timeout
+        # Footer element
+        footer = self.driver.find_element(By.ID, "footer")
+        # Main container, with the dynamic scroll
+        main_container = self.driver.find_element(By.ID, 'middle-container')
+        # Current scroll height
+        loaded_height = self.driver.execute_script("return arguments[0].scrollHeight", main_container)
+
+        while time.time() < endtime:
+            # Scroll to the bottom of the loaded section, with the help of the footer element
+            self.driver.execute_script("arguments[0].scrollIntoView();", footer)
+            # Wait time to load the next section after the scroll
+            time.sleep(load_time)
+            # Once the scroll reaches the footer, the next section will be automatically loaded and the footer will
+            #   move once again to the bottom of the page.
+            # New scroll height
+            new_height = self.driver.execute_script("return arguments[0].scrollHeight", main_container)
+            # Check if the ending of the page has been reached (no difference in height from last scroll)
+            if new_height == loaded_height:
+                break
+            loaded_height = new_height
+
+    def close_cookies_popup(self):
+
+        # Find the cookies popup
+        cookies_popup = self.driver.find_elements(By.CLASS_NAME, 'cookie-notice')
+
+        # If no popup is found, exit function
+        if len(cookies_popup) == 0:
+            return
+
+        # Close the popup accepting the cookies
+        cookies_popup[0].find_element(By.TAG_NAME, 'button').click()
