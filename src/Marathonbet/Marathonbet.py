@@ -4,6 +4,7 @@ from selenium.common import TimeoutException
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import pandas as pd
 
 import time
 
@@ -27,6 +28,8 @@ class Marathonbet():
             "Total de juegos ganados (Local) - 3.er set", "Total de juegos ganados (Visitor) - 3.er set", "Más aces con hándicap", "Total de aces",
             "Más doble faltas con hándicap", "Total de dobles faltas"]
 
+        # Pandas dataframe where the scrapped data will be stored
+        self.scrapped_data = pd.DataFrame()
         # Go to the tennis page and maximize the window.
         self.driver.get(self.tennis_url)
         self.driver.maximize_window()
@@ -34,22 +37,29 @@ class Marathonbet():
         self.close_cookies_popup()
         # Scrap the data
         self.scrap_tennis_data()
-
+        # Generate CSV from dataframe
+        self.scrapped_data.to_csv('C:\\Temp\\test.csv')
 
     def scrap_tennis_data(self):
 
         match_dataset = {}
+        sport = 'Tennis'
 
         # Load all the dynamic data and get all match links
         self.scroll_to_load_all_data_v3(30, 1)
         page_links = self.get_all_match_links()
         print(len(page_links))
 
+        # TODO: Delete Test iterator limit
+        i = 0
+
         # Iterate each match.
         for extension in page_links:
 
             # Go to the current match.
-            link = self.tennis_url + extension
+            #link = self.tennis_url + extension
+            link = extension
+            # TODO: Timeout 1s abans de carregar següent pàgina
             self.go_to_link(link)
             self.click_on_all_markets()
 
@@ -58,13 +68,23 @@ class Marathonbet():
             players = self.find_players(is_doubles)
 
             # Create the match and start iterating all the bets
-            betting_set = self.get_betting_dataset(players[0], players[1])
+            #betting_set = self.get_betting_dataset(players[0], players[1])
+            match_bets_df = self.get_betting_dataset_v2(players[0], players[1], sport)
 
-            match_dataset[players[0] + ' vs ' + players[1]] = betting_set
+            #match_dataset[players[0] + ' vs ' + players[1]] = betting_set
+            # If main dataframe is empty, assign it to match dataframe
+            if self.scrapped_data.empty:
+                self.scrapped_data = match_bets_df
+            # If it has data, use 'concat' to concatenate match to main dataframe
+            else:
+                self.scrapped_data = pd.concat([self.scrapped_data, match_bets_df], ignore_index=True, sort=False)
 
+            # TODO: Delete Test iterator limit
+            i += 1
+            if i == 30:
+                break
 
-        print(match_dataset)
-
+        #print(match_dataset)
 
 
     def go_to_link(self, link):
@@ -161,6 +181,81 @@ class Marathonbet():
 
         return betting_dataset
 
+    def get_betting_dataset_v2(self, local, visitor, sport):
+
+        market_list = []
+        bet_list = []
+        value_list = []
+        event = local + ' vs ' + visitor
+
+        betting_dataset = {}
+
+        # Find all markets of the page.
+        markets = self.driver.find_elements(By.CLASS_NAME, 'market-inline-block-table-wrapper')
+
+        # For each market:
+        for market in markets:
+
+            # Get the name of the market.
+            name = market.find_element(By.CLASS_NAME, 'name-field').text
+            name = name.replace(local, 'Local')
+            name = name.replace(visitor, 'Visitor')
+
+            # If it should be processed.
+            if name in self.interesting_markets:
+
+                # Find all bets.
+                bets = market.find_elements(By.CLASS_NAME, 'selection-link')
+
+                # And for each bet:
+                for bet in bets:
+                    # Get the key of the bet and find the substring after @.
+                    key = bet.get_attribute('data-selection-key')
+                    key = key[key.find('@') + 1:]
+
+                    # Get the value and yield the current bet.
+                    value = bet.get_attribute('data-selection-price')
+
+                    aux_info_value = bet.find_element(By.XPATH, '..').find_element(By.XPATH, '..')
+                    aux_info_value = aux_info_value.find_elements(By.CLASS_NAME, 'coeff-value')
+                    if key[-1] == 'H':
+                        key = key[:-1] + '(Local)'
+                    elif key[-1] == 'A':
+                        key = key[:-1] + '(Visitor)'
+                    if len(aux_info_value) > 0 and 'Handicap' in key:
+                        key = key + aux_info_value[0].text
+
+                    betting_dataset[key] = value
+
+                    market_list.append(key[:key.find('.')])
+                    bet_list.append(key[key.find('.') + 1:])
+                    value_list.append(value)
+
+        return self.generate_event_dataframe(sport, event, local, visitor, market_list, bet_list, value_list)
+
+
+    def generate_event_dataframe(self, sport, event, local, visitor, market_list, bet_list, value_list):
+
+        # Generate Dataframe from dictionary of lists
+            # Sport: Constant value with sport name
+            # Event: Constant value with event description
+            # Local: Constant value with local player/team name
+            # Visitor: Constant value with visitor  player/team name
+            # Market: List of markets for current event
+            # Bet: List of bets for each market
+            # Value: List of bet payouts
+        dictionary_of_lists = {
+            'Sport': sport,
+            'Event': event,
+            'Local': local,
+            'Visitor': visitor,
+            'Market': market_list,
+            'Bet': bet_list,
+            'Value': value_list
+        }
+        match_bets_df = pd.DataFrame(dictionary_of_lists)
+
+        return match_bets_df
 
     def scroll_to_load_all_data(self):
 

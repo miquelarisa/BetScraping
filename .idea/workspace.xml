@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0a4a7eb-e4c7-47ea-9ba0-a31a19e9a417" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/BetScraping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BetScraping.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b0a4a7eb-e4c7-47ea-9ba0-a31a19e9a417" name="Changes" comment="Scroll per Marathonbet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Marathonbet/Marathonbet.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Marathonbet/Marathonbet.py" afterDir="false" />
     </list>
@@ -62,6 +60,14 @@
       <workItem from="1668092709724" duration="9779000" />
       <workItem from="1668105444288" duration="970000" />
     </task>
+    <task id="LOCAL-00001" summary="Scroll per Marathonbet">
+      <created>1668484687456</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668484687456</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,23 +84,28 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Scroll Marathonbet" />
+    <MESSAGE value="Scroll per Marathonbet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scroll per Marathonbet" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/Marathonbet/Marathonbet.py</url>
-          <line>138</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/Marathonbet/Marathonbet.py</url>
-          <line>44</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/Marathonbet/Marathonbet.py</url>
-          <line>200</line>
+          <line>295</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/Marathonbet/Marathonbet.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/Marathonbet/Marathonbet.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
