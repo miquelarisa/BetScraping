@@ -5,6 +5,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
+from datetime import datetime
+from src.Utility import *
 
 import time
 
@@ -14,6 +16,7 @@ class Marathonbet():
     def __init__(self):
 
         self.tennis_url = 'https://www.marathonbet.es/es/popular/Tennis'
+        self.betting_site = 'Marathonbet'
 
         PATH = '..\..\Drivers\chromedriver.exe'
         self.driver = webdriver.Chrome(PATH)
@@ -38,7 +41,8 @@ class Marathonbet():
         # Scrap the data
         self.scrap_tennis_data()
         # Generate CSV from dataframe
-        self.scrapped_data.to_csv('C:\\Temp\\test.csv')
+        # TODO: Change filepath (user input?)
+        self.scrapped_data.to_csv('C:\\Temp\\test.csv', index=False)
 
     def scrap_tennis_data(self):
 
@@ -81,7 +85,7 @@ class Marathonbet():
 
             # TODO: Delete Test iterator limit
             i += 1
-            if i == 30:
+            if i == 10:
                 break
 
         #print(match_dataset)
@@ -185,7 +189,9 @@ class Marathonbet():
 
         market_list = []
         bet_list = []
-        value_list = []
+        quote_list = []
+        scrap_datetime_list = []
+
         event = local + ' vs ' + visitor
 
         betting_dataset = {}
@@ -229,33 +235,11 @@ class Marathonbet():
 
                     market_list.append(key[:key.find('.')])
                     bet_list.append(key[key.find('.') + 1:])
-                    value_list.append(value)
+                    quote_list.append(value)
+                    scrap_datetime_list.append(datetime.utcnow())
 
-        return self.generate_event_dataframe(sport, event, local, visitor, market_list, bet_list, value_list)
-
-
-    def generate_event_dataframe(self, sport, event, local, visitor, market_list, bet_list, value_list):
-
-        # Generate Dataframe from dictionary of lists
-            # Sport: Constant value with sport name
-            # Event: Constant value with event description
-            # Local: Constant value with local player/team name
-            # Visitor: Constant value with visitor  player/team name
-            # Market: List of markets for current event
-            # Bet: List of bets for each market
-            # Value: List of bet payouts
-        dictionary_of_lists = {
-            'Sport': sport,
-            'Event': event,
-            'Local': local,
-            'Visitor': visitor,
-            'Market': market_list,
-            'Bet': bet_list,
-            'Value': value_list
-        }
-        match_bets_df = pd.DataFrame(dictionary_of_lists)
-
-        return match_bets_df
+        return generate_event_dataframe(self.betting_site, sport, event, local, visitor, market_list, bet_list,
+                                        quote_list, scrap_datetime_list)
 
     def scroll_to_load_all_data(self):
 
