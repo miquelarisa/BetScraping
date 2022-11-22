@@ -1,4 +1,10 @@
+import os
 import pandas as pd
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from datetime import datetime
+import time
+
 
 @staticmethod
 def generate_event_dataframe(betting_site, sport, event, local, visitor, market, bet, quote, scrap_datetime):
@@ -30,3 +36,22 @@ def generate_event_dataframe(betting_site, sport, event, local, visitor, market,
     match_bets_df = pd.DataFrame(dictionary_of_lists)
 
     return match_bets_df
+
+
+@staticmethod
+def get_driver_path():
+    # Returns path where the WebDriver is located
+    return os.path.join('..', '..', 'Drivers', 'chromedriver.exe')
+
+
+@staticmethod
+def get_dataset_file_path():
+    # Returns file path where the resulting dataset will be stored
+    return os.path.join('..', 'dataset', 'bet_quotes_dataset_' + datetime.utcnow().strftime('%Y%m%d%H%M%S') + '.csv')
+
+
+@staticmethod
+def print_user_agent(selenium_driver):
+    # Prints user_agent information
+    user_agent = selenium_driver.execute_script("return navigator.userAgent")
+    print('user-agent: ' + user_agent)

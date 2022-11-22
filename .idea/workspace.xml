@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0a4a7eb-e4c7-47ea-9ba0-a31a19e9a417" name="Changes" comment="Generació dataset i exportació a CSV de les dades">
-      <change afterPath="$PROJECT_DIR$/src/Utility.py" afterDir="false" />
+    <list default="true" id="b0a4a7eb-e4c7-47ea-9ba0-a31a19e9a417" name="Changes" comment="Modificacions generació dataset. Fitxer Utility per mètodes comuns entre cases d'apostes.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Marathonbet/Marathonbet.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Marathonbet/Marathonbet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Marathonbet/Marathonbet2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utility.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utility.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668945118442</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Modificacions generació dataset. Fitxer Utility per mètodes comuns entre cases d'apostes.">
+      <created>1669050204263</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669050204263</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,27 +105,11 @@
     <MESSAGE value="Scroll Marathonbet" />
     <MESSAGE value="Scroll per Marathonbet" />
     <MESSAGE value="Generació dataset i exportació a CSV de les dades" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generació dataset i exportació a CSV de les dades" />
+    <MESSAGE value="Modificacions generació dataset. Fitxer Utility per mètodes comuns entre cases d'apostes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificacions generació dataset. Fitxer Utility per mètodes comuns entre cases d'apostes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/Marathonbet/Marathonbet.py</url>
-          <line>279</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/Marathonbet/Marathonbet.py</url>
-          <line>83</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/Marathonbet/Marathonbet.py</url>
-          <line>66</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
