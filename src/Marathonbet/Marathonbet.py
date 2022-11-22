@@ -78,7 +78,7 @@ class Marathonbet:
                 self.scrapped_data = pd.concat([self.scrapped_data, match_bets_df], ignore_index=True, sort=False)
 
             # TODO: Delete Test iterator limit
-            if i == 2:
+            if i == 5:
                 break
             i += 1
 
