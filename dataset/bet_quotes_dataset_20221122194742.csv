@@ -1,0 +1,187 @@
+BettingSite,Sport,Event,Local,Visitor,Market,Bet,Quote,ScrapDateTime
+Marathonbet,Tennis,Croacia vs España,Croacia,España,Match_Result,1,1.43,2022-11-22 19:48:07.608469
+Marathonbet,Tennis,Croacia vs España,Croacia,España,Match_Result,3,2.74,2022-11-22 19:48:07.622688
+Marathonbet,Tennis,Italia vs EEUU,Italia,EEUU,Match_Result,1,2.94,2022-11-22 19:48:09.511644
+Marathonbet,Tennis,Italia vs EEUU,Italia,EEUU,Match_Result,3,1.38,2022-11-22 19:48:09.528506
+Marathonbet,Tennis,Alemania vs Canadá,Alemania,Canadá,Match_Result,1,5.05,2022-11-22 19:48:12.087430
+Marathonbet,Tennis,Alemania vs Canadá,Alemania,Canadá,Match_Result,3,1.155,2022-11-22 19:48:12.102436
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",Match_Result,1,2.78,2022-11-22 19:48:16.059244
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",Match_Result,3,1.42,2022-11-22 19:48:16.073823
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",To_Win_Match_With_Handicap_By_Sets0,HB_(Local)(-1.5),4.8,2022-11-22 19:48:16.308718
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",To_Win_Match_With_Handicap_By_Sets0,HB_(Visitor)(+1.5),1.139,2022-11-22 19:48:16.366806
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",To_Win_Match_With_Handicap_By_Sets,HB_(Local)(+1.5),1.65,2022-11-22 19:48:16.423622
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",To_Win_Match_With_Handicap_By_Sets,HB_(Visitor)(-1.5),2.08,2022-11-22 19:48:16.478422
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",To_Win_Match_With_Handicap_By_Games2,HB_(Local)(+2.5),2.09,2022-11-22 19:48:16.561606
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",To_Win_Match_With_Handicap_By_Games2,HB_(Visitor)(-2.5),1.66,2022-11-22 19:48:16.618358
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",To_Win_Match_With_Handicap_By_Games1,HB_(Local)(+3.0),1.94,2022-11-22 19:48:16.672818
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",To_Win_Match_With_Handicap_By_Games1,HB_(Visitor)(-3.0),1.79,2022-11-22 19:48:16.730339
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",To_Win_Match_With_Handicap_By_Games,HB_(Local)(+3.5),1.8,2022-11-22 19:48:16.784659
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",To_Win_Match_With_Handicap_By_Games,HB_(Visitor)(-3.5),1.97,2022-11-22 19:48:16.841654
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",To_Win_Match_With_Handicap_By_Games0,HB_(Local)(+4.0),1.59,2022-11-22 19:48:16.896953
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",To_Win_Match_With_Handicap_By_Games0,HB_(Visitor)(-4.0),2.24,2022-11-22 19:48:16.952213
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",To_Win_Match_With_Handicap_By_Games3,HB_(Local)(+4.5),1.47,2022-11-22 19:48:17.009730
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",To_Win_Match_With_Handicap_By_Games3,HB_(Visitor)(-4.5),2.49,2022-11-22 19:48:17.067062
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",Total_Sets,Under_2.5,1.49,2022-11-22 19:48:17.159804
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",Total_Sets,Over_2.5,2.4,2022-11-22 19:48:17.205953
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",Total_Games2,Under_21.5,2.06,2022-11-22 19:48:17.300132
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",Total_Games2,Over_21.5,1.68,2022-11-22 19:48:17.345796
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",Total_Games6,Under_22,1.92,2022-11-22 19:48:17.392211
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",Total_Games6,Over_22,1.81,2022-11-22 19:48:17.440194
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",Total_Games7,Under_22.5,1.8,2022-11-22 19:48:17.489258
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",Total_Games7,Over_22.5,1.97,2022-11-22 19:48:17.534699
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",Total_Games9,Under_23,1.69,2022-11-22 19:48:17.582063
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",Total_Games9,Over_23,2.07,2022-11-22 19:48:17.629931
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",Total_Games10,Under_23.5,1.61,2022-11-22 19:48:17.674573
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",Total_Games10,Over_23.5,2.17,2022-11-22 19:48:17.720900
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",Total_Games_Odd_Or_Even,odd,1.84,2022-11-22 19:48:17.766288
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",Total_Games_Odd_Or_Even,even,1.84,2022-11-22 19:48:17.809257
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",Total_Tie-breaks,Under_0.5,1.56,2022-11-22 19:48:17.905123
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",Total_Tie-breaks,Over_0.5,2.24,2022-11-22 19:48:17.950196
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",First_Team_Total_Games,Under_11.5,1.92,2022-11-22 19:48:18.024877
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",First_Team_Total_Games,Over_11.5,1.77,2022-11-22 19:48:18.070403
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",Second_Team_Total_Games,Under_12.5,1.98,2022-11-22 19:48:18.146837
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",Second_Team_Total_Games,Over_12.5,1.72,2022-11-22 19:48:18.192134
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",1st_Set_Result,RN_(Local),2.35,2022-11-22 19:48:18.270013
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",1st_Set_Result,RN_(Visitor),1.51,2022-11-22 19:48:18.314701
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",To_Win_1st_Set_With_Handicap,HB_(Local)(+1.5),1.87,2022-11-22 19:48:18.400961
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",To_Win_1st_Set_With_Handicap,HB_(Visitor)(-1.5),1.81,2022-11-22 19:48:18.461499
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",1st_Set_Total_Games0,Under_9.5,1.88,2022-11-22 19:48:18.536371
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",1st_Set_Total_Games0,Over_9.5,1.8,2022-11-22 19:48:18.583733
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",1st_Set_Total_Games_Odd_or_Even,odd,1.82,2022-11-22 19:48:18.632589
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",1st_Set_Total_Games_Odd_or_Even,even,1.86,2022-11-22 19:48:18.678033
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",First_Team_1st_Set_Games_To_Win,Under_4.5,2.01,2022-11-22 19:48:18.756350
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",First_Team_1st_Set_Games_To_Win,Over_4.5,1.7,2022-11-22 19:48:18.803729
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",First_Team_1st_Set_Games_To_Win0,Under_5.5,1.81,2022-11-22 19:48:18.851705
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",First_Team_1st_Set_Games_To_Win0,Over_5.5,1.87,2022-11-22 19:48:18.899639
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",Second_Team_1st_Set_Games_To_Win0,Under_4.5,3.34,2022-11-22 19:48:18.978664
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",Second_Team_1st_Set_Games_To_Win0,Over_4.5,1.27,2022-11-22 19:48:19.026311
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",Second_Team_1st_Set_Games_To_Win,Under_5.5,2.98,2022-11-22 19:48:19.078399
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",Second_Team_1st_Set_Games_To_Win,Over_5.5,1.33,2022-11-22 19:48:19.125788
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",2nd_Set_Result,RN_(Local),2.46,2022-11-22 19:48:19.203463
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",2nd_Set_Result,RN_(Visitor),1.47,2022-11-22 19:48:19.252385
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",To_Win_2nd_Set_With_Handicap,HB_(Local)(+1.5),1.93,2022-11-22 19:48:19.344763
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",To_Win_2nd_Set_With_Handicap,HB_(Visitor)(-1.5),1.74,2022-11-22 19:48:19.407584
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",2nd_Set_Total_Games0,Under_9.5,1.93,2022-11-22 19:48:19.494991
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",2nd_Set_Total_Games0,Over_9.5,1.74,2022-11-22 19:48:19.543479
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",2nd_Set_Total_Games_Odd_or_Even,odd,1.85,2022-11-22 19:48:19.592349
+Marathonbet,Tennis,"Carlé, María Lourdes vs Fruhvirtova, Brenda","Carlé, María Lourdes","Fruhvirtova, Brenda",2nd_Set_Total_Games_Odd_or_Even,even,1.83,2022-11-22 19:48:19.636930
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",Match_Result,1,2.36,2022-11-22 19:48:22.553569
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",Match_Result,3,1.56,2022-11-22 19:48:22.569589
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",To_Win_Match_With_Handicap_By_Sets0,HB_(Local)(-1.5),3.84,2022-11-22 19:48:22.817711
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",To_Win_Match_With_Handicap_By_Sets0,HB_(Visitor)(+1.5),1.21,2022-11-22 19:48:22.880243
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",To_Win_Match_With_Handicap_By_Sets,HB_(Local)(+1.5),1.53,2022-11-22 19:48:22.938930
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",To_Win_Match_With_Handicap_By_Sets,HB_(Visitor)(-1.5),2.31,2022-11-22 19:48:22.997653
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",To_Win_Match_With_Handicap_By_Games2,HB_(Local)(+1.5),2.09,2022-11-22 19:48:23.089544
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",To_Win_Match_With_Handicap_By_Games2,HB_(Visitor)(-1.5),1.66,2022-11-22 19:48:23.148684
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",To_Win_Match_With_Handicap_By_Games9,HB_(Local)(+2.0),2.03,2022-11-22 19:48:23.206835
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",To_Win_Match_With_Handicap_By_Games9,HB_(Visitor)(-2.0),1.72,2022-11-22 19:48:23.267641
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",To_Win_Match_With_Handicap_By_Games10,HB_(Local)(+2.5),1.97,2022-11-22 19:48:23.326215
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",To_Win_Match_With_Handicap_By_Games10,HB_(Visitor)(-2.5),1.8,2022-11-22 19:48:23.387920
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",To_Win_Match_With_Handicap_By_Games11,HB_(Local)(+3.0),1.84,2022-11-22 19:48:23.450580
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",To_Win_Match_With_Handicap_By_Games11,HB_(Visitor)(-3.0),1.88,2022-11-22 19:48:23.542679
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",To_Win_Match_With_Handicap_By_Games12,HB_(Local)(+3.5),1.74,2022-11-22 19:48:23.622071
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",To_Win_Match_With_Handicap_By_Games12,HB_(Visitor)(-3.5),1.98,2022-11-22 19:48:23.686678
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",Total_Sets,Under_2.5,1.48,2022-11-22 19:48:23.834605
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",Total_Sets,Over_2.5,2.43,2022-11-22 19:48:23.901903
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",Total_Games2,Under_20.5,1.96,2022-11-22 19:48:24.038290
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",Total_Games2,Over_20.5,1.75,2022-11-22 19:48:24.103755
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",Total_Games0,Under_21,1.87,2022-11-22 19:48:24.155208
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",Total_Games0,Over_21,1.85,2022-11-22 19:48:24.210987
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",Total_Games,Under_21.5,1.8,2022-11-22 19:48:24.282753
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",Total_Games,Over_21.5,1.97,2022-11-22 19:48:24.349795
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",Total_Games1,Under_22,1.68,2022-11-22 19:48:24.408909
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",Total_Games1,Over_22,2.08,2022-11-22 19:48:24.460985
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",Total_Games3,Under_22.5,1.6,2022-11-22 19:48:24.514413
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",Total_Games3,Over_22.5,2.19,2022-11-22 19:48:24.574713
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",Total_Games_Odd_Or_Even,odd,1.85,2022-11-22 19:48:24.633803
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",Total_Games_Odd_Or_Even,even,1.83,2022-11-22 19:48:24.685267
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",Total_Tie-breaks,Under_0.5,1.25,2022-11-22 19:48:24.788712
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",Total_Tie-breaks,Over_0.5,3.48,2022-11-22 19:48:24.842885
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",First_Team_Total_Games0,Under_11.5,1.97,2022-11-22 19:48:24.926268
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",First_Team_Total_Games0,Over_11.5,1.727,2022-11-22 19:48:24.979878
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",Second_Team_Total_Games0,Under_12.5,1.65,2022-11-22 19:48:25.057670
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",Second_Team_Total_Games0,Over_12.5,2.08,2022-11-22 19:48:25.108760
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",1st_Set_Result,RN_(Local),2.13,2022-11-22 19:48:25.191644
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",1st_Set_Result,RN_(Visitor),1.62,2022-11-22 19:48:25.241762
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",To_Win_1st_Set_With_Handicap,HB_(Local)(+1.5),1.89,2022-11-22 19:48:25.336308
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",To_Win_1st_Set_With_Handicap,HB_(Visitor)(-1.5),1.79,2022-11-22 19:48:25.400035
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",1st_Set_Total_Games,Under_9.5,1.56,2022-11-22 19:48:25.485526
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",1st_Set_Total_Games,Over_9.5,2.24,2022-11-22 19:48:25.538191
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",1st_Set_Total_Games_Odd_or_Even,odd,1.98,2022-11-22 19:48:25.589783
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",1st_Set_Total_Games_Odd_or_Even,even,1.72,2022-11-22 19:48:25.642223
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",First_Team_1st_Set_Games_To_Win0,Under_4.5,1.98,2022-11-22 19:48:25.728618
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",First_Team_1st_Set_Games_To_Win0,Over_4.5,1.72,2022-11-22 19:48:25.781558
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",First_Team_1st_Set_Games_To_Win,Under_5.5,1.79,2022-11-22 19:48:25.834819
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",First_Team_1st_Set_Games_To_Win,Over_5.5,1.89,2022-11-22 19:48:25.888195
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",Second_Team_1st_Set_Games_To_Win0,Under_4.5,2.68,2022-11-22 19:48:26.011989
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",Second_Team_1st_Set_Games_To_Win0,Over_4.5,1.4,2022-11-22 19:48:26.083765
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",Second_Team_1st_Set_Games_To_Win,Under_5.5,2.4,2022-11-22 19:48:26.138122
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",Second_Team_1st_Set_Games_To_Win,Over_5.5,1.49,2022-11-22 19:48:26.195287
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",2nd_Set_Result,RN_(Local),2.2,2022-11-22 19:48:26.279977
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",2nd_Set_Result,RN_(Visitor),1.58,2022-11-22 19:48:26.336421
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",To_Win_2nd_Set_With_Handicap,HB_(Local)(+1.5),1.92,2022-11-22 19:48:26.439850
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",To_Win_2nd_Set_With_Handicap,HB_(Visitor)(-1.5),1.75,2022-11-22 19:48:26.507158
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",2nd_Set_Total_Games,Under_9.5,1.6,2022-11-22 19:48:26.596921
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",2nd_Set_Total_Games,Over_9.5,2.14,2022-11-22 19:48:26.650944
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",2nd_Set_Total_Games_Odd_or_Even,odd,2.01,2022-11-22 19:48:26.710270
+Marathonbet,Tennis,"Baptiste, Hailey vs Pigossi, Laura","Baptiste, Hailey","Pigossi, Laura",2nd_Set_Total_Games_Odd_or_Even,even,1.7,2022-11-22 19:48:26.756954
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",Match_Result,1,1.5,2022-11-22 19:48:29.569690
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",Match_Result,3,2.52,2022-11-22 19:48:29.587582
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",To_Win_Match_With_Handicap_By_Sets,HB_(Local)(-1.5),2.18,2022-11-22 19:48:29.888745
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",To_Win_Match_With_Handicap_By_Sets,HB_(Visitor)(+1.5),1.59,2022-11-22 19:48:29.962155
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",To_Win_Match_With_Handicap_By_Sets0,HB_(Local)(+1.5),1.182,2022-11-22 19:48:30.038924
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",To_Win_Match_With_Handicap_By_Sets0,HB_(Visitor)(-1.5),4.15,2022-11-22 19:48:30.107058
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",To_Win_Match_With_Handicap_By_Games9,HB_(Local)(-4.5),2.19,2022-11-22 19:48:30.203672
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",To_Win_Match_With_Handicap_By_Games9,HB_(Visitor)(+4.5),1.6,2022-11-22 19:48:30.269499
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",To_Win_Match_With_Handicap_By_Games8,HB_(Local)(-4.0),2.04,2022-11-22 19:48:30.342574
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",To_Win_Match_With_Handicap_By_Games8,HB_(Visitor)(+4.0),1.71,2022-11-22 19:48:30.410716
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",To_Win_Match_With_Handicap_By_Games7,HB_(Local)(-3.5),1.89,2022-11-22 19:48:30.480900
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",To_Win_Match_With_Handicap_By_Games7,HB_(Visitor)(+3.5),1.87,2022-11-22 19:48:30.554592
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",To_Win_Match_With_Handicap_By_Games6,HB_(Local)(-3.0),1.78,2022-11-22 19:48:30.621995
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",To_Win_Match_With_Handicap_By_Games6,HB_(Visitor)(+3.0),1.95,2022-11-22 19:48:30.688784
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",To_Win_Match_With_Handicap_By_Games2,HB_(Local)(-2.5),1.69,2022-11-22 19:48:30.759748
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",To_Win_Match_With_Handicap_By_Games2,HB_(Visitor)(+2.5),2.04,2022-11-22 19:48:30.826981
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",Total_Sets,Under_2.5,1.46,2022-11-22 19:48:30.934026
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",Total_Sets,Over_2.5,2.49,2022-11-22 19:48:31.000789
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",Total_Games7,Under_19.5,2.17,2022-11-22 19:48:31.124624
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",Total_Games7,Over_19.5,1.61,2022-11-22 19:48:31.179483
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",Total_Games6,Under_20,2.05,2022-11-22 19:48:31.239455
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",Total_Games6,Over_20,1.7,2022-11-22 19:48:31.297001
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",Total_Games2,Under_20.5,1.93,2022-11-22 19:48:31.357652
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",Total_Games2,Over_20.5,1.83,2022-11-22 19:48:31.412547
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",Total_Games0,Under_21,1.82,2022-11-22 19:48:31.469721
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",Total_Games0,Over_21,1.9,2022-11-22 19:48:31.536675
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",Total_Games,Under_21.5,1.727,2022-11-22 19:48:31.595706
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",Total_Games,Over_21.5,1.99,2022-11-22 19:48:31.650286
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",Total_Games_Odd_Or_Even,odd,1.85,2022-11-22 19:48:31.713696
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",Total_Games_Odd_Or_Even,even,1.83,2022-11-22 19:48:31.774531
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",Total_Tie-breaks,Under_0.5,1.22,2022-11-22 19:48:31.882683
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",Total_Tie-breaks,Over_0.5,3.74,2022-11-22 19:48:31.950338
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",First_Team_Total_Games,Under_12.5,1.64,2022-11-22 19:48:32.043727
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",First_Team_Total_Games,Over_12.5,2.1,2022-11-22 19:48:32.102027
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",Second_Team_Total_Games0,Under_11.5,1.86,2022-11-22 19:48:32.198891
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",Second_Team_Total_Games0,Over_11.5,1.82,2022-11-22 19:48:32.266848
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",1st_Set_Result,RN_(Local),1.57,2022-11-22 19:48:32.376880
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",1st_Set_Result,RN_(Visitor),2.22,2022-11-22 19:48:32.440039
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",To_Win_1st_Set_With_Handicap,HB_(Local)(-1.5),1.72,2022-11-22 19:48:32.553922
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",To_Win_1st_Set_With_Handicap,HB_(Visitor)(+1.5),1.98,2022-11-22 19:48:32.628128
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",1st_Set_Total_Games,Under_9.5,1.53,2022-11-22 19:48:32.716836
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",1st_Set_Total_Games,Over_9.5,2.31,2022-11-22 19:48:32.773603
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",1st_Set_Total_Games_Odd_or_Even,odd,1.99,2022-11-22 19:48:32.835830
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",1st_Set_Total_Games_Odd_or_Even,even,1.71,2022-11-22 19:48:32.889413
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",First_Team_1st_Set_Games_To_Win0,Under_4.5,2.76,2022-11-22 19:48:32.975672
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",First_Team_1st_Set_Games_To_Win0,Over_4.5,1.38,2022-11-22 19:48:33.033954
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",First_Team_1st_Set_Games_To_Win,Under_5.5,2.49,2022-11-22 19:48:33.090342
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",First_Team_1st_Set_Games_To_Win,Over_5.5,1.46,2022-11-22 19:48:33.144811
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",Second_Team_1st_Set_Games_To_Win0,Under_4.5,1.89,2022-11-22 19:48:33.235951
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",Second_Team_1st_Set_Games_To_Win0,Over_4.5,1.79,2022-11-22 19:48:33.295148
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",Second_Team_1st_Set_Games_To_Win,Under_5.5,1.72,2022-11-22 19:48:33.351660
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",Second_Team_1st_Set_Games_To_Win,Over_5.5,1.98,2022-11-22 19:48:33.408611
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",2nd_Set_Result,RN_(Local),1.53,2022-11-22 19:48:33.500262
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",2nd_Set_Result,RN_(Visitor),2.31,2022-11-22 19:48:33.561033
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",To_Win_2nd_Set_With_Handicap,HB_(Local)(-1.5),1.666,2022-11-22 19:48:33.667649
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",To_Win_2nd_Set_With_Handicap,HB_(Visitor)(+1.5),2.03,2022-11-22 19:48:33.740663
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",2nd_Set_Total_Games,Under_9.5,1.56,2022-11-22 19:48:33.829781
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",2nd_Set_Total_Games,Over_9.5,2.21,2022-11-22 19:48:33.889687
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",2nd_Set_Total_Games_Odd_or_Even,odd,2.02,2022-11-22 19:48:33.944950
+Marathonbet,Tennis,"Bara, Irina María vs Gorgodze, Ekaterine","Bara, Irina María","Gorgodze, Ekaterine",2nd_Set_Total_Games_Odd_or_Even,even,1.69,2022-11-22 19:48:33.997728
