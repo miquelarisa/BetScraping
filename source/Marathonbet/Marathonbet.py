@@ -53,9 +53,6 @@ class Marathonbet:
         page_links = self.get_all_match_links()
         print(len(page_links))
 
-        # TODO: Delete Test iterator limit
-        i = 0
-
         # Iterate each match.
         for extension in page_links:
 
@@ -76,11 +73,6 @@ class Marathonbet:
             # If it has data, use 'concat' to concatenate match to main dataframe
             else:
                 self.scrapped_data = pd.concat([self.scrapped_data, match_bets_df], ignore_index=True, sort=False)
-
-            # TODO: Delete Test iterator limit
-            if i == 5:
-                break
-            i += 1
 
     def go_to_link(self, link):
 
